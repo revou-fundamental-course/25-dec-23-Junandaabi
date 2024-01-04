@@ -1,0 +1,126 @@
+.heading {
+    /* Membuat garis biru tebal Horizontal dan mengubah text didalamnya berada posisi center */
+    border-bottom: 5px solid rgb(77, 66, 230);
+    text-align: center;
+}
+
+.footer {
+    /* Membuat garis biru tebal Horizontal dan mengubah text didalamnya berada posisi center */
+    border-top: 5px solid rgb(77, 66, 230);
+    text-align: center;
+}
+
+.container {
+    /* Mengubah tampilan "Luas Segitiga" dan "Keliling Segitiga" secara flex dan berada di posisi center */
+    display: flex;
+    justify-content: center;
+}
+
+.container div {
+    /* Merapihkan bentuk tampilan "Luas Segitiga" dan "Keliling Segitiga" */
+    padding: 10px;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-size: large;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(20, 211, 195);
+}
+
+.container div a {
+    /* Menghilangkan underline pada teks "Luas Segitiga" dan "Keliling Segitiga" */
+    text-decoration: none;
+}
+
+.buttons1 {
+    /* Mengubah tampilan buttons "Hitung" dan "Reset" pada Luas Segitiga secara flex dan berada di posisi center */
+    display: flex;
+    align-self: center;
+    gap: 15px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.buttons2 {
+    /* Mengubah tampilan buttons "Hitung" dan "Reset" pada Keliling Segitiga secara flex dan berada di posisi center */
+    display: flex;
+    align-self: center;
+    gap: 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+button {
+    /* Merapihkan tampilan seluruh tipe data berjenis button agar lebih indah dan sedikit interaktif */
+    background-color: sandybrown;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+/* Membuat seluruh tipe data berjenis button jadi lebih interaktif */
+button:hover {
+    background-color: rgb(207, 132, 66);
+}
+
+.input-nilai {
+    /* Merapihkan seluruh tipe data yang memiliki class = "input-nilai" menjadi lebih rapi */
+    outline: none;
+    border-radius: 10px;
+    padding: 4px;
+    border: 1px solid blueviolet;
+}
+
+.gambar-luas {
+    /* Membuat gambar segitiga menjadi fleksibel dan merubah posisi gambar di center */
+    display: flex;
+    width: 300px;
+    height: 200px;
+    align-self: center;
+}
+
+.gambar-keliling {
+    /* Membuat gambar segitiga menjadi fleksibel dan merubah posisi gambar di center */
+    display: flex;
+    width: 300px;
+    height: 200px;
+    align-self: center;
+}
+
+.bagian-isi {
+    /* Membuat bagian isi/main menjadi fleksibel */
+    display: flex;
+    flex-direction: column;
+}
+
+.text-rumus {
+    /* Meletakkan teks rumus berada di posisi center */
+    display: flex;
+    justify-content: center;
+}
+
+.rumus {
+    /* Merapihkan dan membuat tampilan rumus menjadi lebih indah dan berada di posisi center */
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    border: none;
+    color: red;
+    padding: 10px 20px;
+    margin-left: 600px;
+    margin-right: 600px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.label-nilai {
+    /* Memberikan jarak antar elemen terluar */
+    margin-left: 10px;
+}
+

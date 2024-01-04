@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luas & Keliling Segitiga</title>
+    <!-- menghubungkan CSS dan JS jika berbeda file/folder -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <!-- membuat bagian header yang berisi text selamat datang dan navigasi -->
+    <header class="heading">
+        <h1>Selamat Datang di Web Saya</h1>
+        <p> Hari ini kita akan melakukan perhitungan Luas dan Keliling dari Segitiga</p>
+        <nav class="container">
+            <div><a href="#Luas">Luas Segitiga</a></div>
+            <div><a href="#Keliling">Keliling Segitiga</a></div>
+        </nav>
+    </header>
+
+    <main class="bagian-isi">
+        <h2 id="Luas">Luas Segitiga</h2>
+        <br>
+        <img src="assets/Luas Segitiga.JPG" alt="gambar-luas-segitiga" class="gambar-luas">
+        <p class="text-rumus">Rumus Luas Segitiga</p>
+        <p class="rumus">L = (alas x tinggi) / 2</p>
+        <br><br>
+
+        <!-- membuat label dan input untuk mengisi nilai Alas dan Tinggi sesuai yang diinginkan -->
+        <fieldset>
+            <legend>Input Nilai</legend>
+            <p>
+                <label for="alas" class="label-nilai">Alas :</label>
+                <input type="number" id="alas" class="input-nilai">
+                <label for="tinggi" class="label-nilai">Tinggi :</label>
+                <input type="number" id="tinggi" class="input-nilai">
+            </p>
+        </fieldset>
+
+        <!-- wadah untuk menampilkan hasil perhitungan Luas Segitiga yang dibuat di JS -->
+        <h4 id="output-luas"></h4>
+
+        <!-- membuat button hitung dan reset yang apabila di klik akan mengeksekusi proses perhitungan Luas
+            Segitiga di JS -->
+        <div class="buttons1">
+            <button onclick="HitungLuas()">Hitung</button>
+            <button onclick="ResetLuas()">Reset</button>
+        </div>
+        <br><br>
+
+        <h2 id="Keliling">Keliling Segitiga</h2>
+        <img src="assets/Keliling Segitiga.png" alt="gambar-keliling-segitiga" class="gambar-keliling">
+        <p class="text-rumus">Rumus Keliling Segitiga</p>
+        <p class="rumus">K = sisi + sisi + sisi</p>
+        <br><br>
+
+        <!-- membuat label dan input untuk mengisi nilai Sisi1,Sisi2,Sisi3 sesuai yang diinginkan -->
+        <fieldset>
+            <legend>Input Nilai</legend>
+            <p>
+                <label for="sisi1" class="label-nilai">Sisi ke-1 :</label>
+                <input type="number" id="sisi-satu" class="input-nilai">
+                <label for="sisi2" class="label-nilai">Sisi ke-2 :</label>
+                <input type="number" id="sisi-dua" class="input-nilai">
+                <label for="sisi3" class="label-nilai">Sisi ke-3 :</label>
+                <input type="number" id="sisi-tiga" class="input-nilai">
+            </p>
+        </fieldset>
+
+        <!-- wadah untuk menampilkan hasil perhitungan Keliling Segitiga yang dibuat di JS -->
+        <h4 id="output-keliling"></h4>
+
+        <!-- membuat button hitung dan reset yang apabila di klik akan mengeksekusi proses perhitungan Keliling
+            Segitiga di JS -->
+        <div class="buttons2">
+            <button onclick="HitungKeliling()">Hitung</button>
+            <button onclick="ResetKeliling()">Reset</button>
+        </div> 
+    </main>
+    
+    <!-- membuat bagian footer yang berisi text Terima Kasih -->
+    <footer class="footer">
+        <h1>Terimakasih</h1>
+        <p>Semoga Anda Menikmati Pengalaman Berkunjung di Website Saya</p>
+    </footer>
+</body>
+</html>
